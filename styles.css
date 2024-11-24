@@ -484,7 +484,7 @@ textarea {
 footer {
     margin-top: 4rem;
     background: var(--bgGradient);
-    height: 250px;
+    height: 100%;
     border-radius: 5px;
 }
 
@@ -644,10 +644,30 @@ footer {
 
  @media screen and (max-width : 435px) {
 
+    header {
+        padding: 0.2rem;
+    }
+
+    .services {
+        margin-top: 3rem;
+        padding: 0.3em;
+    }
     .card h3 {
         font-size: 5vw;
     }
-    .card-button {
-        font-size: 3vw;
+    .card-button, .heros__button {
+        font-size: 5vw;
+    }
+
+    .footer-nav {
+        padding: 1rem;
+        font-size: 1rem;
+        gap: 0;
+    }
+
+    .footer-info {
+        p {
+            margin-top: 1rem;
+        }
     }
  }
