@@ -331,7 +331,7 @@ span {
 
 .heros-card-container > .heros-card:nth-child(6) {
     position: relative;
-    background: url(./ressources/images/superime.png) center/cover;
+    background: url(./ressources/images/superime.png) center/contain;
 }
 
 
@@ -615,7 +615,7 @@ footer {
 
 /* Petit écran telephone */
 
- @media screen and (max-width :724px ) {
+ @media screen and (max-width : 724px ) {
 
     header nav {
         h1 {
@@ -643,7 +643,6 @@ footer {
 /* Mini ecran de ses morts (qui a ca encore sans déconner ?) */
 
  @media screen and (max-width : 435px) {
-
     header {
         padding: 0.2rem;
     }
